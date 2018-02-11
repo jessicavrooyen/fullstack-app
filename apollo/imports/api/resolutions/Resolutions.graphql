@@ -1,8 +1,12 @@
 # name          [x]
 #createdAt      [ ]
-# [todoID]      [ ]
+# [todoID]      [x]
 
 type Resolution {
     _id: String!
     name: String!
+}
+
+type Mutation {
+    createResolution: Resolution
 }
